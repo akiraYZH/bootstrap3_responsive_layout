@@ -19,7 +19,11 @@ $main_color:#0079d7;
                 color: #0079d7;
                 font-size: 48px;
                 font-weight: bold;
-
+                // &:hover{
+                //     animation-duration: 2s;
+                    
+                //     animation-name:fadeIn;
+                // }
 
             }
 
@@ -314,6 +318,44 @@ $main_color:#0079d7;
     }
 
     
+}
+
+.web .section_box .content h2,
+.web .advantage .section_box .content h2,
+.web .laya_family .section_box h2,
+.web .games .section_box h2,
+.web .cooperation .section_box h2 {
+    display: inline-block;
+    &:hover{
+        animation-duration: 1.5s;
+        animation-name: rubberBand;
+    }
+}
+.web .laya_family .section_box h2{
+    width:100%;
+    text-align: center;
+}
+
+.web .section_box .content .engine_point .col-l,
+.web .advantage .section_box .content .point .col-l,
+.web .laya_family .section_box .row .point .col-l {
+    &:hover{
+        animation-duration: 1s;
+        animation-name: swing;
+    }
+    
+}
+.web .games .section_box .row .games_box .game_box {
+    &:hover{
+        animation-duration: 1s;
+        animation-name: tada;
+    }
+}
+.web .cooperation .section_box .row .tag {
+    &:hover{
+        animation-duration: 1s;
+        animation-name: jello;
+    }
 }
 
 @media only screen and (max-width:767px){
