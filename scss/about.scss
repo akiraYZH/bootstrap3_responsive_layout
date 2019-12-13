@@ -1,0 +1,147 @@
+@charset "utf-8";
+@import "_common";
+
+$head_color:#333333;
+$text_color: #666666;
+$main_color:#0079d7;
+$sub_color:#8cc11f;
+
+.web {
+    .kv {
+        margin-top: 50px;
+        height: 19.1vw;
+
+        // width: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .introduction,
+    .recruitment {
+        .section_box {
+            padding-top: 93px;
+            padding-bottom: 66px;
+
+            .text_box {
+                h2 {
+                    font-size: 36px;
+                    color: $head_color;
+                    margin: 0;
+                }
+
+                h3 {
+                    font-size: 21px;
+                    color: $head_color;
+                    margin: 35px 0 30px;
+                    line-height: 30px;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: $head_color;
+                    margin-bottom: 25px;
+                    line-height: 28px;
+                    text-indent: 25px;
+                }
+            }
+
+            .img_area {
+                .img_box {
+                    width: 100%;
+
+                    // position: relative;
+                    // top:160px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .recruitment {
+        background-color: $sub_color;
+
+        .section_box .text_box h2 {
+            margin-bottom: 60px;
+        }
+
+        .section_box .text_box p {
+            font-size: 16px;
+        }
+
+        .section_box .text_box h2,
+        .section_box .text_box p {
+            color: white;
+            text-indent: 0px;
+        }
+
+        .section_box {
+            .row {
+                .recruit {
+                    p {
+                        margin: 0;
+                        font-size: 16px;
+                        color: white;
+                    }
+
+                    h3 {
+                        margin: 16px 0;
+                    }
+
+                    h3 a {
+                        display: inline-block;
+                        font-size: 24px;
+                        color: $sub_color;
+                        padding: 15px;
+                        box-sizing: border-box;
+                        background-color: white;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .position {
+        
+        
+        .section_box {
+            padding-top: 72px;
+            padding-bottom: 62px;
+            &:not(:first-of-type){
+                border-top: 1px solid #d2d2d2;
+            }
+            &:first-of-type{
+                padding-top: 118px;
+            }
+            
+
+            h4 {
+                font-size: 26px;
+                color: $sub_color;
+                margin: 0;
+                margin: 0 0 40px 0;
+                font-weight: normal;
+            }
+
+            h5 {
+                font-size: 18px;
+                color: $head_color;
+                margin: 0;
+                margin-bottom: 20px;
+            }
+
+            ol {
+                li {
+                    font-size: 14px;
+                    color: $head_color;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

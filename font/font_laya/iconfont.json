@@ -1,0 +1,51 @@
+{
+  "id": "1556257",
+  "name": "laya",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15228",
+      "name": "腾讯",
+      "font_class": "tengxun",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "402163",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "2685920",
+      "name": "邮件",
+      "font_class": "youjian01",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "7604239",
+      "name": "邮件",
+      "font_class": "youjian",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "11875953",
+      "name": "定位 位置",
+      "font_class": "dingweiweizhi",
+      "unicode": "e703",
+      "unicode_decimal": 59139
+    },
+    {
+      "icon_id": "12191345",
+      "name": "电 话",
+      "font_class": "dianhua",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    }
+  ]
+}
